@@ -4,3 +4,5 @@ php bin/console doctrine:query:sql "SELECT 1"
 
 symfony console make:entity User
 symfony console make:entity Transfer
+
+composer require security
