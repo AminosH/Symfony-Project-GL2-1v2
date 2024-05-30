@@ -1,0 +1,6 @@
+<h1>Login</h1>
+
+{{ include('security/_errors.html.twig') }}  <form method="post">
+    {{ form_start(loginForm) }}  {{ form_row(loginForm.username) }}  {{ form_row(loginForm.password) }}  <button type="submit">Login</button>
+
+    {{ form_end(loginForm) }}  </form>
