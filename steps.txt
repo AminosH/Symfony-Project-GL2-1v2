@@ -1,1 +1,4 @@
 symfony new Symfony-Project-GL2-1v2 --webapp
+
+php bin/console doctrine:query:sql "SELECT 1"
+
